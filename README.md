@@ -36,7 +36,7 @@ This database would contain several tables:
 
 * record: the one with all the data we cleaned. I would add an extra column with a concatenation of ('año', 'mes', 'dia', 'hora', 'punto_muestreo'), to set it as this table primary key, and finally another concatenation of 'año', 'mes', 'dia', 'hora' to set the relation with the station table.
 
-* station: a table with the following columns: 'punto_muestreo_id' (primary key), 'estacion_id', 'municipio_id', 'provincia_id', 'punto_muestreo_id', 'estacion', 'municipio', 'provincia'. In the record table we have just the ids, but there are other tables with the names of municipio, punto_muestreo, etc. More info [here](https://datos.madrid.es/FWProjects/egob/Catalogo/MedioAmbiente/Aire/Ficheros/Interprete_ficheros_%20calidad_%20del_%20aire_global.pdf).
+* station: a table with the following columns: 'punto_muestreo_id' (primary key), 'estacion_id', 'municipio_id', 'provincia_id', 'punto_muestreo_id', 'estacion', 'municipio', 'provincia'. In the record table we have just the ids, but there are other tables with the names of municipio, punto_muestreo, etc. This table would include [this info](https://gist.github.com/koldLight/533038c852ca0a546da247292b5d9ab9).
 
 * date: a table with the following columns: 'hora', 'dia', 'mes', 'año', 'dia_semana', 'fin_de_semana', 'dia/noche', a concatenation of ('año', 'mes', 'dia', 'hora'), to set it as a primary key and sort the data by time in that way.
 
