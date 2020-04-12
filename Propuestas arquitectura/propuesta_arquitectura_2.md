@@ -1,6 +1,6 @@
 # Propuesta de arquitectura 2:
 
-![Flujo-2](https://github.com/alonsopdani/brain-tumor-detection-project/blob/master/images/0-raw.png)
+![Flujo-2](https://github.com/alonsopdani/madrid-polution-analysis/blob/master/images/Flujo-2.png)
 
 Las fuentes de datos son dos: por un lado, la de contaminación, cuyos datos se pueden descargar a través de una url y, por otro, la de temperaturas, cuya información se puede extraer mediante llamadas get a una API.
 
