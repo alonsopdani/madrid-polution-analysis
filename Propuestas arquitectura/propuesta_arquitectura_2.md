@@ -22,4 +22,6 @@ A partir de aquí, se producen varias salidas de la información:
 
 	* Data Studio: con esta herramienta de visualización fácil de usar (aunque algo limitada) podríamos analizar los datos de manera ágil.
 
+En cuanto a la cantidad de usuarios que vayan a consultar la información, habría que hacer un estudio para ver qué tipo de máquinas habría que usar (instancias de Google App Engine de entorno estándar o flexible), pero de cualquier manera son autoescalables, por lo tanto buscaríamos minimizar los costes y solo procesar lo mínimo necesario.
+
 Nota: El icono del reloj en la esquina superior de las APIs “Contaminación Tiempo Real”, “Temperatura Tiempo Real”, “Merge” y “Modelos”, significa que estas se ejecutarían de manera programada, en este caso, cada hora, para extraer, tratar, cargar y visualizar los dato en tiempo real. Esto se conseguiría gracias al servicio de “Tareas Cron” de Google Cloud, servicio que permite programar tareas.
